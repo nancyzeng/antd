@@ -1,0 +1,21 @@
+/*
+ * author: nancyzeng
+ * date:2019/3/14
+ * description:vant组件样式重定义
+ */
+
+@import './var.scss';
+@import './mixin.scss';
+@import './func.scss';
+// @import './../../style/font/PingFangBold.css';
+// @import './../font/PingFangMedium.css';
+
+html {
+  margin: 0 auto!important;
+  margin: 0 auto;
+  line-height: 1.5;
+  @include font("PingFangMedium", $fontSize, #333);
+  height: 100%;
+  position: relative;
+}
+
