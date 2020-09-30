@@ -3,12 +3,13 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-import { DatePicker } from 'ant-design-vue';
-Vue.use(DatePicker);
+import Antd from 'ant-design-vue';
+import 'ant-design-vue/dist/antd.css';
+Vue.config.productionTip = false;
 
-import 'ant-design-vue/lib/date-picker/style/css'; // 加载 CSS
+Vue.use(Antd);
 
-Vue.config.productionTip = false
+
 
 /* eslint-disable no-new */
 new Vue({
